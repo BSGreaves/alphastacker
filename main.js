@@ -1,5 +1,4 @@
 var alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
-console.log(alphabet);
 var output = "";
 
 function stackLetters (array) {
@@ -25,5 +24,5 @@ function stackLettersByThrees (array) {
 }
 
 stackLetters(alphabet);
-output = "";
+output = ""; //resets the variable
 stackLettersByThrees(alphabet);
